@@ -1,0 +1,142 @@
+body{
+    background: #E5E5E5;
+    
+}
+.logo {
+    margin: 3% 0 0 9%;
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    font-size: 25px;
+    margin-left: 20px;
+    color: #0A3871;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 0 5%;
+}
+.secao-texto-entrada {
+    height: 500px;
+}
+.input-texto {
+    border: none;
+    background: #E5E5E5;
+    font-size: 32px;
+    resize: none; 
+    height: 300px;
+    padding-left: 8%; 
+    width: 90%; 
+}
+.input-texto:focus {
+    outline: 0;
+}
+.input-texto::placeholder {
+    color: #0A3871;
+}
+.mensagem {
+    width: 400px;
+    height: 944px;
+    position: relative;
+    bottom: 130px;
+    border: none;
+    resize: none;
+    border-radius: 32px; 
+    padding: 30px;
+    background-image: url('../img/boneco.png');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: 250px;
+    text-align: center;
+}
+.mensagem:focus {
+    outline: 0;
+}
+.informacao {
+    display: flex;
+    margin: 270px 0 20px 50px;
+    align-items: center;
+    font-size: 15px;
+    color: #495057;
+}
+.informacao img {
+    margin-right: 10px;
+    width: 15px;
+}
+.botoes {
+    text-align: center;
+    margin-top: 10px;
+}
+.criptografar {
+    width: 300px;
+    height: 68px;
+    border-radius: 24px;
+    background: #0a3871;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.desencriptar {
+    width: 300px;
+    height: 68px;
+    border-radius: 24px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    margin-left: 20px;
+    color: #0A3871;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    margin-left: 8%;
+    align-items: center;
+    margin-top: -100px;
+}
+.footer  span{
+    display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    color: #495057b7;
+}
+.redes-sociais {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.redes-sociais i {
+    margin-left: 70px;
+}
+#btnCopiar {
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+    width: 300px;
+    height: 58px;
+    border-radius: 24px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    color: #0A3871;
+    font-size: 18px;
+    cursor: pointer;
+    display:none;
+}
+.texto-saida {
+    position: absolute;
+    bottom: 130px;
+    width: 250px;
+    text-align: center;
+    margin-left: 105px;
+    
+    
+}
+.texto-saida h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+.texto-saida p {
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 16px;
+    
+}
